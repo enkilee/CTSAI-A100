@@ -80,7 +80,7 @@ SuperRadar 是由承泰科技发起并长期支持的开放毫米波感知技术
 10. **进行雷达下线标定**
     如需校准雷达安装角度与实验平台坐标，请参阅 [CTSAI-A100 下线标定文档](./docs/calibration.md)，完成标定目标布置、工具启动、标定执行和结果检查。
 
-完成以上步骤后，即可基于 [examples](./examples/) 目录中的示例工程，开展毫米波雷达信号处理、点云算法、目标检测、轨迹分析、多传感器融合与场景数据采集等研究工作。
+完成以上步骤后，即可基于目录中的示例工程，开展毫米波雷达信号处理、点云算法、目标检测、轨迹分析、多传感器融合与场景数据采集等研究工作。
 
 
 
@@ -90,7 +90,7 @@ SuperRadar 是由承泰科技发起并长期支持的开放毫米波感知技术
 
 ### 加入 SuperRadar 社群
 
-欢迎加入 SuperRadar 开发者社群，与社区成员、科研团队和算法开发者交流：
+添加小助手微信 `superradar01`，欢迎加入 SuperRadar 开发者社群，与社区成员、科研团队和算法开发者交流：
 
 * 硬件连接与上位机使用
 * ADC 数据采集与处理
@@ -101,22 +101,14 @@ SuperRadar 是由承泰科技发起并长期支持的开放毫米波感知技术
 
 ### 提交 GitHub Issue
 
-如果你发现文档问题、工具异常、示例代码错误或数据格式问题，请在 GitHub 提交 Issue。
+如果你发现文档问题、工具异常、示例代码错误或数据格式问题，请在 GitHub 提交 [Issue](https://github.com/Super-Radar/CTSAI-A100/issues)。
 
-提交 Issue 时，请尽量包含以下信息：
 
-* 使用的硬件版本
-* 使用的工具版本
-* 操作系统版本
-* 问题复现步骤
-* 报错截图或日志
-* 相关数据文件示例
 
----
 
 ## 如何贡献
 
-欢迎开发者、研究者和社区成员参与 CTSAI-A100 文档、示例代码和数据集共建。
+SuperRadar 秉承开源理念，我们欢迎所有人的贡献。无论您是想改进文档、修复漏洞还是开发新功能，我们都诚挚邀请您参与塑造社区的未来。
 
 你可以贡献：
 
@@ -138,38 +130,12 @@ SuperRadar 是由承泰科技发起并长期支持的开放毫米波感知技术
 4. 发起 Pull Request
 5. 等待社区 review 与合并
 
-分支命名示例：
 
-```bash
-git checkout -b docs/update-adc-guide
-git checkout -b examples/add-python-tracking-demo
-```
-
-提交信息示例：
-
-```bash
-git commit -m "docs: update ADC capture guide"
-git commit -m "examples: add Python tracking visualization demo"
-```
-
----
 
 ## 许可证 License
 
-本仓库中的文档、示例代码、示例数据和工具资源可能适用不同许可证。具体以各目录下的 `LICENSE` 或说明文件为准。
+采用 Apache 2.0 许可证。详情请参阅[LICENSE文件](https://github.com/Super-Radar/CTSAI-A100/blob/main/README.md)。
 
-建议目录说明如下：
-
-| 内容            | License                 |
-| ------------- | ----------------------- |
-| 文档            | CC BY 4.0               |
-| 示例代码          | Apache-2.0              |
-| 示例数据          | CC BY-NC 4.0            |
-| RadarTools 工具 | 由承泰科技 / SuperRadar 授权使用 |
-
-使用本仓库中的工具、数据和示例代码前，请阅读对应目录下的许可证和使用说明。
-
----
 
 ## 免责声明
 
@@ -177,11 +143,11 @@ CTSAI-A100 相关工具、示例代码和数据仅用于研究、开发、教学
 
 ADC 数据、点云数据、示例脚本和分析结果仅作为研究与开发参考，不构成对特定应用效果的保证。
 
----
 
-## 相关链接
+## 相关资源
 
 * SuperRadar 官网：`https://superradar.cn`
 * SuperRadar GitHub：`https://github.com/SuperRadar`
-* 问题反馈：`https://github.com/SuperRadar/ctsai-a100/issues`
-* 社区讨论：`https://github.com/SuperRadar/ctsai-a100/discussions`
+* 问题反馈：`https://github.com/Super-Radar/ctsai-a100/issues`
+* <img src="docs/Wechat.jpg" alt="社区公众号" height=100></img>
+

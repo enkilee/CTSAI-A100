@@ -1,6 +1,6 @@
 <div align="center">
 <a href='https://www.superradar.cn'>
-<img src="docs/logo.png" alt="SuperRadar Open-source millimeter-wave radar" height=100></img>
+<img src="docs/logo.jpg" alt="SuperRadar Open-source millimeter-wave radar" height=100></img>
 </a>
 
 

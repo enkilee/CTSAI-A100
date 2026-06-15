@@ -59,28 +59,28 @@ SuperRadar 是由承泰科技发起并长期支持的开放毫米波感知技术
    按照 [CTSAI-A100 驱动安装文档](./docs/driver-installation.md) 安装 USB-CAN FD 驱动，并在 Windows 设备管理器中确认设备已正常识别。
 
 3. **连接 CTSAI-A100 硬件**
-   完成雷达供电、CAN-H / CAN-L 接线，并将 USB-CAN FD 盒连接至电脑。接线方式和注意事项请参阅 [CTSAI-A100 快速开始文档](./docs/quick-start.md)。
+   完成雷达供电、CAN-H / CAN-L 接线，并将 USB-CAN FD 盒连接至电脑。接线方式和注意事项请参阅 [CTSAI-A100 快速开始文档](.)。
 
 4. **启动 RadarTools 上位机**
-   按照 [RadarTools 上位机使用文档](./docs/radartools-guide.md) 启动 `RadarTools_V1.4.6.3.exe`，完成设备配置后点击 `Start`，查看原始点、跟踪点、目标距离、速度和角度等数据。
+   按照 [RadarTools 上位机使用文档](./) 启动 `RadarTools_V1.4.6.3.exe`，完成设备配置后点击 `Start`，查看原始点、跟踪点、目标距离、速度和角度等数据。
 
 5. **切换远波 / 近波模式**
-   如需进行不同距离范围的实验，可在 RadarTools 中切换远波或近波模式。具体操作请参阅 [RadarTools 上位机使用文档](./docs/radartools-guide.md)。
+   如需进行不同距离范围的实验，可在 RadarTools 中切换远波或近波模式。具体操作请参阅 [RadarTools 上位机使用文档](.d)。
 
 6. **采集点云数据**
-   在 RadarTools 中完成点云采集与回放，采集后的 `.asc` 文件可用于点云分析、目标检测、轨迹分析和算法验证。详细流程请参阅 [RadarTools 上位机使用文档](./docs/radartools-guide.md)。
+   在 RadarTools 中完成点云采集与回放，采集后的 `.asc` 文件可用于点云分析、目标检测、轨迹分析和算法验证。详细流程请参阅 [RadarTools 上位机使用文档](.)。
 
 7. **采集 ADC 原始数据**
-   如需开展雷达信号处理、FFT、滤波、目标检测或微多普勒分析，请按照 [CTSAI-A100 ADC 数据采集文档](./docs/adc-capture.md) 采集 ADC 数据。
+   如需开展雷达信号处理、FFT、滤波、目标检测或微多普勒分析，请按照 [CTSAI-A100 ADC 数据采集文档](./) 采集 ADC 数据。
 
 8. **运行 Python 雷达可视化示例**
-   使用 [Python 雷达可视化示例](./docs/python-visualization.md) 读取示例 CSV 数据，完成点云显示、目标筛选、聚类显示和轨迹绘制。
+   使用 [Python 雷达可视化示例](./Python雷达可视化工具示例) 读取示例 CSV 数据，完成点云显示、目标筛选、聚类显示和轨迹绘制。
 
 9. **使用示例数据验证工具链**
-   仓库提供 [示例 ADC 数据](./sample-data/adc/)、[点云示例数据](./sample-data/pointcloud/) 和 [Python 可视化示例数据](./sample-data/visualization/)，便于用户在接入真实硬件前验证数据处理流程。
+   仓库提供 [示例 ADC 数据](./ADC数据采集/示例adc数据和结果)便于用户在接入真实硬件前验证数据处理流程。
 
 10. **进行雷达下线标定**
-    如需校准雷达安装角度与实验平台坐标，请参阅 [CTSAI-A100 下线标定文档](./docs/calibration.md)，完成标定目标布置、工具启动、标定执行和结果检查。
+    如需校准雷达安装角度与实验平台坐标，请参阅 [CTSAI-A100 下线标定文档]()，完成标定目标布置、工具启动、标定执行和结果检查。
 
 完成以上步骤后，即可基于目录中的示例工程，开展毫米波雷达信号处理、点云算法、目标检测、轨迹分析、多传感器融合与场景数据采集等研究工作。
 
